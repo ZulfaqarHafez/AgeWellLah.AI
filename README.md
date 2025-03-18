@@ -25,20 +25,6 @@ We would like to extend our sincere gratitude to **InterSystems** for providing 
 
 <p>By leveraging <strong>InterSystems IRIS</strong> for data management and the <strong>OpenAI API</strong> for context-aware responses, our solution helps:</p>
 
-<table>
-  <tr>
-    <th>🔹 Reduce Hospital Readmissions</th>
-    <th>🔹 Improve Medication Adherence</th>
-    <th>🔹 Prevent Falls & Enhance Care</th>
-  </tr>
-  <tr>
-    <td>Minimize avoidable returns</td>
-    <td>Ensure regular medication intake</td>
-    <td>Proactive fall prevention</td>
-  </tr>
-</table>
-
-
 <h2>Setup</h2>
 
 _Prerequisite_ - [Docker](https://www.docker.com) must be installed and running for the commands below to work!
