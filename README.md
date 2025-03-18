@@ -8,22 +8,27 @@ We would like to extend our sincere gratitude to **InterSystems** for providing 
 [![](https://img.shields.io/badge/InterSystems-IRIS-blue.svg)](https://github.com/intersystems-community/hackathon-2024/tree/main)
 
 <h2>Overview</h2>
-<p>AgeWellLah.AI enhances <strong>value-based healthcare</strong> using AI to track and improve patient outcomes across various care settings. Our AI-powered chatbot provides:</p>
+<p>AgeWellLah.AI enhances <strong>value-based healthcare</strong> using AI to track and improve patient outcomes across various care settings. Our AI-powered chatbot leverages <strong>InterSystems IRIS</strong> for seamless data management, ensuring secure, real-time access to patient records across healthcare providers. Additionally, it utilizes the <strong>OpenAI API</strong> to generate context-aware responses, offering personalized support and guidance to patients and caregivers. This combination enables efficient care coordination, timely interventions, and improved health outcomes.</p>
 
-<table>
+
+<table border="1">
   <tr>
-    <th>✅ Personalized Daily Planners</th>
-    <th>✅ Food Recommendations</th>
-    <th>✅ Doctor’s Note Assistance</th>
+    <th>Feature</th>
+    <th>Description</th>
   </tr>
   <tr>
+    <td>✅ Personalized Daily Planners</td>
     <td>Helps structure daily activities</td>
+  </tr>
+  <tr>
+    <td>✅ Food Recommendations</td>
     <td>Tailored nutrition advice</td>
+  </tr>
+  <tr>
+    <td>✅ Doctor’s Note Assistance</td>
     <td>Streamlined medical documentation</td>
   </tr>
 </table>
-
-<p>By leveraging <strong>InterSystems IRIS</strong> for data management and the <strong>OpenAI API</strong> for context-aware responses, our solution helps:</p>
 
 <h2>Setup</h2>
 
