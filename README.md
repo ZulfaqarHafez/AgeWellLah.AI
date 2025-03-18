@@ -3,7 +3,7 @@
 
 🚀 <strong>HealthHack 2025 Project</strong>
 
-We would like to extend our sincere gratitude to **Iris Systems** for providing us with the opportunity to build our project on their GitHub repository for the **InterSystems IRIS Data Platform**. Their support has been invaluable in enabling us to develop and experiment with innovative solutions.  
+We would like to extend our sincere gratitude to **InterSystems** for providing us with the opportunity to build our project on their GitHub repository for the **InterSystems IRIS Data Platform**. Their support has been invaluable in enabling us to develop and experiment with innovative solutions.  
 
 [![](https://img.shields.io/badge/InterSystems-IRIS-blue.svg)](https://github.com/intersystems-community/hackathon-2024/tree/main)
 
