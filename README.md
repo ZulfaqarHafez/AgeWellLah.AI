@@ -62,6 +62,15 @@ After running the above command, you can access the System Management Portal via
 
 5. Run main.py https://github.com/ZulfaqarHafez/AgeWellLah.AI/blob/main/Apps/chatbot/main.py to use the chatbot 
   
+<h2>🔗 Technologies Used</h2>
+<img src="tech_stack.png"/>
+<ul>
+  <li>📌 <strong>InterSystems IRIS</strong> – Robust data management</li>
+  <li>🤖 <strong>OpenAI API</strong> – Intelligent, context-aware responses</li>
+  <li>💡 <strong>AI Chatbot</strong> – Personalized healthcare assistance</li>
+</ul>
+
+<p>🚀 <strong>Join us in shaping the future of AI-driven healthcare!</strong> 🚀</p>
 
 <h2>Team Members</h2>
 <table>
@@ -81,11 +90,3 @@ After running the above command, you can access the System Management Portal via
   </tr>
 </table>
 
-<h2>🔗 Technologies Used</h2>
-<ul>
-  <li>📌 <strong>InterSystems IRIS</strong> – Robust data management</li>
-  <li>🤖 <strong>OpenAI API</strong> – Intelligent, context-aware responses</li>
-  <li>💡 <strong>AI Chatbot</strong> – Personalized healthcare assistance</li>
-</ul>
-
-<p>🚀 <strong>Join us in shaping the future of AI-driven healthcare!</strong> 🚀</p>
