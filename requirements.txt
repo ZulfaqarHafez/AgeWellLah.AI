@@ -36,9 +36,9 @@ httpx-sse==0.4.0
 huggingface-hub==0.29.1
 humanfriendly==10.0
 idna==3.10
-intersystems_irispython @ file:///G:/healthhack2025/hackathon-2024/install/intersystems_irispython-5.0.1-8026-cp38.cp39.cp310.cp311.cp312-cp38.cp39.cp310.cp311.cp312-win_amd64.whl#sha256=0d5be4f2af9db1d578caa9a41bf722115e2a69bf75113a94a6b6c64bf774d38b
+intersystems_irispython @ file://install/intersystems_irispython-5.0.1-8026-cp38.cp39.cp310.cp311.cp312-cp38.cp39.cp310.cp311.cp312-win_amd64.whl
 ipykernel==6.29.5
-ipython==9.0.0
+ipython==9.0.0 
 ipython_pygments_lexers==1.1.1
 itsdangerous==2.2.0
 jedi==0.19.2
