@@ -32,6 +32,37 @@
   </tr>
 </table>
 
+
+<h2>Setup</h2>
+
+_Prerequisite_ - [Docker](https://www.docker.com) must be installed and running for the commands below to work!
+
+
+
+1. Install IRIS Community Edtion in a container. This will be your SQL database server.
+    ```Shell
+    docker run -d --name iris-comm -p 1972:1972 -p 52773:52773 -e IRIS_PASSWORD=demo -e IRIS_USERNAME=demo intersystemsdc/iris-community:latest
+    ```
+After running the above command, you can access the System Management Portal via http://localhost:52773/csp/sys/UtilHome.csp.
+
+
+2. Create a Python environment and activate it with Python version 3.12.8:
+   
+    venv (Windows):
+    ```Shell
+    python3 -m venv iris-env
+    .\iris-env\Scripts\Activate
+    ```
+3. Install packages for all demos -- *Note*: This command might take a while to run (as it freezes for some time which looks like its stuck):
+    ```Shell
+    pip install -r requirements.txt
+    ```
+
+4. Run load_and_test.ipynb https://github.com/ZulfaqarHafez/AgeWellLah.AI/blob/main/demo/load_and_test.ipynb to setup and store Demo Patient Report in Vector Database
+
+5. Run main.py https://github.com/ZulfaqarHafez/AgeWellLah.AI/blob/main/Apps/chatbot/main.py to use the chatbot 
+  
+
 <h2>Team Members</h2>
 <table>
   <tr>
