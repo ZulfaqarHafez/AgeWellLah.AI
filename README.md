@@ -84,7 +84,7 @@ After running the above command, you can access the System Management Portal via
       <a href="https://www.linkedin.com/in/zulfaqarhafez/" target="_blank"><strong>Zulfaqar Hafez</strong></a>
     </td>
     <td align="center">
-      <img src="https://media.licdn.com/dms/image/v2/D5603AQGZktJfCjQ9uw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724558762646?e=1747872000&v=beta&t=zqirpCnJB9luIACb7mkQ2dmbSwG5mz2YYxmHScLYWAY" width="100px;" alt="Rahul Mitra"/><br>
+      <img src="https://media.licdn.com/dms/image/v2/D5603AQHuXUSRlGs2Cg/profile-displayphoto-shrink_400_400/B56ZWpvmdCHEAk-/0/1742309583319?e=1747872000&v=beta&t=QX6yG7jDYYjJOaS9dZiHV1w6S2XcPKzxWjXuj9tk4Vg" width="100px;" alt="Rahul Mitra"/><br>
       <a href="https://www.linkedin.com/in/rahul-mitra-2oo2"><strong>Rahul Mitra</strong></a>
     </td>
   </tr>
