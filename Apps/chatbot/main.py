@@ -2,14 +2,13 @@ from flask import Flask, render_template, request, jsonify, send_file
 from gtts import gTTS
 import os
 from io import BytesIO
-import re
 import base64
 from openai import OpenAI
-import iris
-from llama_index.legacy import SimpleDirectoryReader, StorageContext, ServiceContext
 from llama_index.legacy.indices.vector_store import VectorStoreIndex
 from llama_iris import IRISVectorStore
 app = Flask(__name__)
+from dotenv import load_dotenv
+import getpass
 
 
 namespace="USER"
@@ -28,7 +27,10 @@ def process_voice():
     data = request.get_json()
     # Receive transcribed speech text from frontend
     speech_text = data.get('speechText', '')  
-    client = OpenAI(api_key="")
+    load_dotenv(override=True)
+    if not os.environ.get("OPENAI_API_KEY"):
+        os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
+    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
     processed_text = ""
 
     #captures user prompt for a meal planner
@@ -140,13 +142,6 @@ def process_voice():
                 "speechText": processed_text,
                 "audioData": audio_base64
             })
-                    
-            # Send the audio file back as a response (MP3 format)
-            # return send_file(audio_file, mimetype='audio/mp3', as_attachment=False)
-    #     else:
-    #         return jsonify({"message": "Failed to process text in Google Colab"})
-    # else:
-    #     return jsonify({"message": "No speech text received"})
 
 if __name__ == '__main__':
     app.run(debug=True)
